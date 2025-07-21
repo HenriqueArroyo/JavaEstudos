@@ -160,27 +160,28 @@ public class Exercicios {
 
      public void Exercicio9() {
         int soma = 0;
-      
-       
-        for (int i = 1; i < 6; i++) {
-            System.out.println("Digite um número para a média:");
+        int validos = 0;
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print("Digite o " + i + "º número: ");
             int num = sc.nextInt();
-            
 
-            if (num<0) {
-                continue;
-            } else{
-                soma += num;
-            } 
-            
-            if (i ==5) {
-             
+            if (num < 0) {
+                System.out.println("Número negativo ignorado.");
+                continue;  // pula para o próximo número
+            }
 
-                double media = soma/i;
+            soma += num;
+            validos++;
+        }
 
-                System.out.println("A média dos números é "+media);
-                break;
-            } 
+        if (validos > 0) {
+            double media = (double) soma / validos;
+            System.out.println("Quantidade de números válidos: " + validos);
+            System.out.println("Soma: " + soma);
+            System.out.println("Média: " + media);
+        } else {
+            System.out.println("Nenhum número válido foi digitado.");
         }
      }
 
@@ -196,7 +197,18 @@ public class Exercicios {
         } else if (num%2==0) {
         primo = false;
         } else{
-            
+        double limite = Math.sqrt(num);
+        for (int i = 3; i <= limite; i += 2) {
+            if (num%i==0) {
+                primo = false;
+            }
+        }
+        }
+
+        if (primo) {
+            System.out.println("O número é primo!!");
+        } else {
+            System.out.println("O número não é primo!!");
         }
 
 

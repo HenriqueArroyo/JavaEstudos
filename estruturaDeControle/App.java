@@ -3,6 +3,6 @@ public class App {
 
     public static void main(String[] args) {
         Exercicios obj = new Exercicios();
-        obj.Exercicio9();
+        obj.Exercicio10();
     }
 }
