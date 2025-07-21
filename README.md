@@ -1,34 +1,34 @@
 # JavaEstudos
 
-Trilha JAVA
+Trilha JAVA<br>
 
-Nível fácil:
-Variáveis e Tipagem de dados ✅
-Dados primitivos e não-primitivos ✅
-Estrutura de controle ✅
-Estruturas de repetição
-Métodos e parâmetros
-Arrays
+Nível fácil:<br>
+Variáveis e Tipagem de dados ✅ <br>
+Dados primitivos e não-primitivos ✅<br>
+Estrutura de controle ✅<br>
+Estruturas de repetição<br>
+Métodos e parâmetros<br>
+Arrays<br>
 
-Nível médio:
-Classes e objetos
-Construtores
-Modificador de acesso
-Herança / Polimorfismo / Encapsulamento
-Interfaces
-Classes abstratas
-Enums
-Generics
-Lambdas
-Collections
+Nível médio:<br>
+Classes e objetos<br>
+Construtores<br>
+Modificador de acesso<br>
+Herança / Polimorfismo / Encapsulamento<br>
+Interfaces<br>
+Classes abstratas<br>
+Enums<br>
+Generics<br>
+Lambdas<br>
+Collections<br>
 
-Nível avançado:
-Java Memory Model
-Garbage Collection
-Reflection Api
-Restful web services
-Padrões de projeto
-Spring Framework
+Nível avançado:<br>
+Java Memory Model<br>
+Garbage Collection<br>
+Reflection Api<br>
+Restful web services<br>
+Padrões de projeto<br>
+Spring Frameworkv
 
 
 
