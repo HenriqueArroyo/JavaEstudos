@@ -52,8 +52,8 @@ public class Exercicios {
             primo = true;
         } else {
             double limite = Math.sqrt(n);
-            for (int i = 1; i <= n; i++) {
-                if (n%2==0) {
+            for (int i = 3; i <= limite; i+= 2) {
+                if (n%i==0) {
                     primo = false;
                 } 
             }
