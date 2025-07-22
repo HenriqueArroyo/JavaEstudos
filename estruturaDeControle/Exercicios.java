@@ -168,6 +168,7 @@ public class Exercicios {
 
             if (num < 0) {
                 System.out.println("Número negativo ignorado.");
+                i--;
                 continue;  // pula para o próximo número
             }
 
@@ -177,12 +178,9 @@ public class Exercicios {
 
         if (validos > 0) {
             double media = (double) soma / validos;
-            System.out.println("Quantidade de números válidos: " + validos);
             System.out.println("Soma: " + soma);
             System.out.println("Média: " + media);
-        } else {
-            System.out.println("Nenhum número válido foi digitado.");
-        }
+        } 
      }
 
      public void Exercicio10() {

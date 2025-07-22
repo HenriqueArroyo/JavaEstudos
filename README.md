@@ -6,7 +6,7 @@ Nível fácil:<br>
 Variáveis e Tipagem de dados ✅ <br>
 Dados primitivos e não-primitivos ✅<br>
 Estrutura de controle ✅<br>
-Estruturas de repetição<br>
+Estruturas de repetição ✅<br>
 Métodos e parâmetros<br>
 Arrays<br>
 
