@@ -185,4 +185,75 @@ public class Exercicios {
 
         }
     }
+
+
+    public void Exercicio4() {
+        HashMap<String, Integer> contador = new HashMap<>();
+
+        System.out.println("Escreva uma frase: ");
+        String frase = sc.nextLine().toLowerCase();
+
+        String[] palavras = frase.replaceAll("[^a-zA-Zà-úÀ-Ú0-9 ]", "").split("\\s+");
+
+        for (String palavra : palavras) {
+            if (contador.containsKey(palavra)) {
+                contador.put(palavra, contador.get(palavra) + 1);
+            } else{
+                contador.put(palavra, 1);
+            }
+    
+        } 
+
+        System.out.println("Contador: ");
+        for (Map.Entry<String, Integer> entry : contador.entrySet()) {
+            System.out.println(entry.getKey()+" = "+entry.getValue());
+        }
+        sc.close();
+    }
+
+    public void Exercicio5() {
+        HashMap<String, String> traducao = new HashMap<>();
+        String palavra, word, searchedPalavra;
+        boolean condicao = true;
+
+        traducao.put("cachorro", "dog");
+        traducao.put("gato", "cat");
+        traducao.put("gostar", "like");
+        traducao.put("sim", "yes");
+        traducao.put("não", "no");
+        traducao.put("mesa", "table");
+        traducao.put("livro", "book");
+        traducao.put("maçã", "apple");
+        traducao.put("banana", "banana");
+        traducao.put("gol", "goal");
+        traducao.put("criar", "make");
+        traducao.put("comer", "eat");
+        traducao.put("dormir", "sleep");
+
+
+        while (condicao) {
+       System.out.println("----- Dicionário -----\n1 - Pesquisar palavras\n2 - Listar traduções");
+       int operador = sc.nextInt();
+        switch (operador) {
+            case 1:
+            sc.nextLine();
+            System.out.println("Me informe a palavra: ");
+            searchedPalavra = sc.nextLine();
+
+            for (String key : traducao.keySet()) {
+                if (key.equals(searchedPalavra)) {
+                    System.out.println("A tradução de "+searchedPalavra +" é "+traducao.get(key));
+                }
+            }
+            break;
+            case 2:
+            for (Map.Entry<String, String> entry : traducao.entrySet()) {
+                System.out.println(entry);
+            }
+            default:
+                break;
+        }
+        }
+
+    }
 }
