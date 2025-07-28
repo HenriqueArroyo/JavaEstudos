@@ -8,7 +8,8 @@ Dados primitivos e não-primitivos ✅<br>
 Estrutura de controle ✅<br>
 Estruturas de repetição ✅<br>
 Métodos e parâmetros✅<br>
-Arrays<br>
+Arrays<br>✅
+HashMap<br>
 
 Nível médio:<br>
 Classes e objetos<br>
