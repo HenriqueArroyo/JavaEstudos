@@ -9,10 +9,10 @@ Estrutura de controle ✅<br>
 Estruturas de repetição ✅<br>
 Métodos e parâmetros✅<br>
 Arrays<br>✅
-HashMap<br>
+HashMap<br>✅
 
 Nível médio:<br>
-Classes e objetos<br>
+Classes e objetos<br>✅
 Construtores<br>
 Modificador de acesso<br>
 Herança / Polimorfismo / Encapsulamento<br>
