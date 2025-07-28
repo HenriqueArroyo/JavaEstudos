@@ -6,7 +6,8 @@ public class Gerente extends Funcionario {
     super();
     }
 
- 
+   public void exibirDados() {
+   }
 
 
 }
